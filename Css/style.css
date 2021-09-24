@@ -16,14 +16,17 @@ nav li {
     margin: 5px;
 }
 .activo {
-    color:  lightskyblue
+    color:  lightskyblue !important;
 }
 nav li a {
-     color: snow;
-     font-size: 26px; 
+     color: snow !important;
+     font-size: 24px !important; 
 }
 nav li a:hover{
-    color: lightskyblue;
+    color: lightskyblue !important;
+}
+.navegacion{
+    background-color: mediumslateblue;
 }
 .Header {
     display: flex;
@@ -35,6 +38,7 @@ nav li a:hover{
 }
 .Nombre {
     color: snow;
+    font-size: 34px;
 }
 .Menu {
     display: flex;
@@ -54,25 +58,19 @@ nav li a:hover{
 }
 .parrafo{
     font-size: 28px;
-    display: block;
     width: 800px;
-    background-color: skyblue;
-    border: outset slateblue; 
     color: snow;
+    padding: 7%;
 }
 #concepto{
     width: 800px;
-    margin-left: 10%;
-    margin-top: 4%;
-    padding: 10px;
+    align-items: center;
 }
 .mine{
     width: 420px;
-    margin-left: 60%;
-    margin-top: -14%;
     border: double mediumslateblue;
     border-width: 10px;
-    
+    margin-left: 10%;
  }
 .tituloActualizaciones{
     font-size:26px;
@@ -83,10 +81,9 @@ nav li a:hover{
     margin-top: 2%;
 }
 #actualizaciones{
-width: 1000px;
-margin-left: 24%;
-margin-top: 2%;
-padding: 10px;
+    width: 100%;
+    padding: 1%;
+    text-align: center;
 }
 .tituloNombre{
     font-size:26px;
@@ -96,62 +93,8 @@ padding: 10px;
     color: snow;
     margin-top: 2%;
 }
-.subTiMontaña{
-    color: snow;
-    font-size: 60px;
-    width: 400px;
-    margin-left: 10%;
-    margin-top: 9%;
-    margin-bottom: 8%;
-    padding: 10px;
-    border: ridge mediumslateblue;
-    text-align: center;
-    border-width: 20px;
-}
-.montaña{
-    width: 750px;
-    margin-left: 50%;
-    margin-top: -21%;
-    border: double mediumslateblue;
-    border-width: 20px;
-}
-.subTiCueva{
-    color: snow;
-    font-size: 60px;
-    width: 400px;
-    margin-left: 59%;
-    margin-top: 9%;
-    margin-bottom: 8%;
-    padding: 10px;
-    border: ridge mediumslateblue;
-    text-align: center;
-    border-width: 20px;
-}
-.cueva{
-    width: 707px;
-    margin-left: 08%;
-    margin-top: -21%;
-    border: double mediumslateblue;
-    border-width: 20px;
-}
-.subTiYmas{
-    color: snow;
-    font-size: 60px;
-    width: 400px;
-    margin-left: 40%;
-    margin-top: 9%;
-    margin-bottom: 8%;
-    padding: 10px;
-    border: ridge mediumslateblue;
-    text-align: center;
-    border-width: 20px;
-}
-.cavesAndCliffs{
-    width: 750px;
-    margin-left: 31%;
-    margin-top: -5%;
-    border: double mediumslateblue;
-    border-width: 20px;
+.carrusel{
+    margin-top: 2%;
 }
 /*                                Pagina Montaña con clases  para pagina mobs y cuevas                                                         */
 #footer{
