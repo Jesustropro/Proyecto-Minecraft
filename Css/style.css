@@ -1,0 +1,409 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Acme', sans-serif;
+    text-decoration: none;
+}
+
+body{
+    background-color: lightskyblue
+}
+/*                                                   Menú de navegación                                                        */
+nav li {
+    padding: 10px;
+    margin: 5px;
+}
+.activo {
+    color:  lightskyblue
+}
+nav li a {
+     color: snow;
+     font-size: 26px; 
+}
+nav li a:hover{
+    color: lightskyblue;
+}
+.Header {
+    display: flex;
+    background-color: mediumslateblue;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.Nombre {
+    color: snow;
+}
+.Menu {
+    display: flex;
+}
+.Menu ul {
+    color: white;
+    padding: 10px;
+    margin: 0 10px;
+}
+/*                                                               Contenido principal                              */
+.titulo{
+    font-size: 28px;
+    text-align: center;
+    padding-bottom: 4%;
+    padding-top: 1%;
+    color: snow;
+}
+.parrafo{
+    font-size: 28px;
+    display: block;
+    width: 800px;
+    background-color: skyblue;
+    border: outset slateblue; 
+    color: snow;
+}
+#concepto{
+    width: 800px;
+    margin-left: 10%;
+    margin-top: 4%;
+    padding: 10px;
+}
+.mine{
+    width: 420px;
+    margin-left: 60%;
+    margin-top: -14%;
+    border: double mediumslateblue;
+    border-width: 10px;
+    
+ }
+.tituloActualizaciones{
+    font-size:26px;
+    background-color: mediumslateblue;
+    padding: 20px;
+    text-align: center;
+    color: snow;
+    margin-top: 2%;
+}
+#actualizaciones{
+width: 1000px;
+margin-left: 24%;
+margin-top: 2%;
+padding: 10px;
+}
+.tituloNombre{
+    font-size:26px;
+    background-color: mediumslateblue;
+    padding: 20px;
+    text-align: center;
+    color: snow;
+    margin-top: 2%;
+}
+.subTiMontaña{
+    color: snow;
+    font-size: 60px;
+    width: 400px;
+    margin-left: 10%;
+    margin-top: 9%;
+    margin-bottom: 8%;
+    padding: 10px;
+    border: ridge mediumslateblue;
+    text-align: center;
+    border-width: 20px;
+}
+.montaña{
+    width: 750px;
+    margin-left: 50%;
+    margin-top: -21%;
+    border: double mediumslateblue;
+    border-width: 20px;
+}
+.subTiCueva{
+    color: snow;
+    font-size: 60px;
+    width: 400px;
+    margin-left: 59%;
+    margin-top: 9%;
+    margin-bottom: 8%;
+    padding: 10px;
+    border: ridge mediumslateblue;
+    text-align: center;
+    border-width: 20px;
+}
+.cueva{
+    width: 707px;
+    margin-left: 08%;
+    margin-top: -21%;
+    border: double mediumslateblue;
+    border-width: 20px;
+}
+.subTiYmas{
+    color: snow;
+    font-size: 60px;
+    width: 400px;
+    margin-left: 40%;
+    margin-top: 9%;
+    margin-bottom: 8%;
+    padding: 10px;
+    border: ridge mediumslateblue;
+    text-align: center;
+    border-width: 20px;
+}
+.cavesAndCliffs{
+    width: 750px;
+    margin-left: 31%;
+    margin-top: -5%;
+    border: double mediumslateblue;
+    border-width: 20px;
+}
+/*                                Pagina Montaña con clases  para pagina mobs y cuevas                                                         */
+#footer{
+    background-color: mediumslateblue;
+    padding: 20px;
+    margin-top: 2%;
+}
+.foto-1{
+    width: 730px;
+    margin-left: 55%;
+    margin-top: -14%;
+    border: double mediumslateblue;
+    border-width: 10px;
+}
+#montañaVariacion{
+    width: 1000px;
+    margin-left: 25%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border: double mediumslateblue;
+    border-width: 20px;
+}
+.concepto-1{
+    color: snow;
+    font-size: 30px;
+    width: 800px;
+    margin-left: 6%;
+    margin-top: 9%;
+    margin-bottom: 8%;
+    padding: 10px;
+    border: ridge mediumslateblue;
+    text-align: center;
+    border-width: 20px;
+}
+.foto-concepto-1{
+    width: 730px;
+    margin-left: 55%;
+    margin-top: -25%;
+    border: double mediumslateblue;
+    border-width: 10px;
+}
+.concepto-2{
+    color: snow;
+    font-size: 30px;
+    width: 800px;
+    margin-left: 53%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    padding: 10px;
+    border: ridge mediumslateblue;
+    text-align: center;
+    border-width: 20px;
+}
+.foto-concepto-2{
+    width: 750px;
+    margin-left: 7%;
+    margin-top: -26%;
+    border: double mediumslateblue;
+    border-width: 10px;
+}
+.concepto-3{
+    color: snow;
+    font-size: 30px;
+    width: 800px;
+    margin-left: 6%;
+    margin-top: 4%;
+    margin-bottom: 8%;
+    padding: 10px;
+    border: ridge mediumslateblue;
+    text-align: center;
+    border-width: 20px;
+}
+.foto-concepto-3{
+    width: 780px;
+    margin-left: 53.5%;
+    margin-top: -28%;
+    border: double mediumslateblue;
+    border-width: 10px;
+}
+#MountainGrove{
+    color: snow;
+    font-size: 30px;
+    width: 800px;
+    margin-left: 53%;
+    margin-top: 6%;
+    margin-bottom: 8%;
+    padding: 10px;
+    border: ridge mediumslateblue;
+    text-align: center;
+    border-width: 20px;
+}
+#MountainGroveFoto{
+    width: 750px;
+    margin-left: 7%;
+    margin-top: -28%;
+    border: double mediumslateblue;
+    border-width: 10px;
+}
+/*                                                   Página cuevas                                                                                */
+#cueva{
+    width: 730px;
+    margin-left: 57%;
+    margin-top: -14%;
+    border: double mediumslateblue;
+    border-width: 10px;
+}
+#subTiLush{
+    color: snow;
+    font-size: 60px;
+    width: 400px;
+    margin-left: 15%;
+    margin-top: 10%;
+    margin-bottom: 8%;
+    padding: 10px;
+    border: ridge mediumslateblue;
+    text-align: center;
+    border-width: 20px;
+}
+#lushFoto{
+    width: 730px;
+    margin-left: 50%;
+    margin-top: -22%;
+    border: double mediumslateblue;
+    border-width: 10px;
+}
+#subTiDeep{
+    color: snow;
+    font-size: 60px;
+    width: 700px;
+    margin-left: 50.7%;
+    margin-top: 10%;
+    margin-bottom: 8%;
+    padding: 10px;
+    border: ridge mediumslateblue;
+    text-align: center;
+    border-width: 20px;
+}
+#subTiDeepFoto{
+    width: 730px;
+    margin-left: 7%;
+    margin-top: -22%;
+    border: double mediumslateblue;
+    border-width: 10px;
+}
+#subTiDrip{
+    color: snow;
+    font-size: 60px;
+    width: 700px;
+    margin-left: 7.5%;
+    margin-top: 10%;
+    margin-bottom: 8%;
+    padding: 10px;
+    border: ridge mediumslateblue;
+    text-align: center;
+    border-width: 20px;
+}
+#subTiDripFoto{
+    width: 730px;
+    margin-left: 50%;
+    margin-top: -22%;
+    border: double mediumslateblue;
+    border-width: 10px;  
+}
+#geoda{
+    color: snow;
+    font-size: 40px;
+    width: 900px;
+    margin-left: 7%;
+    margin-top: 6%;
+    margin-bottom: 8%;
+    padding: 10px;
+    border: ridge mediumslateblue;
+    text-align: center;
+    border-width: 20px;
+}
+#geodaFoto{
+    width: 600px;
+    margin-left: 60%;
+    margin-top: -24%;
+    border: double mediumslateblue;
+    border-width: 10px;  
+}
+#cobre{
+    color: snow;
+    font-size: 40px;
+    width: 900px;
+    margin-left: 45%;
+    margin-top: 6%;
+    margin-bottom: 4%;
+    padding: 10px;
+    border: ridge mediumslateblue;
+    text-align: center;
+    border-width: 20px;
+}
+#cobreFoto{
+    width: 600px;
+    margin-left: 7%;
+    margin-top: -20%;
+    border: double mediumslateblue;
+    border-width: 10px;   
+}
+
+/*                                         Página Mobs                                                                                        */
+#axolotlFoto{
+    width: 780px;
+    margin-left: 53.5%;
+    margin-top: -25%;
+    border: double mediumslateblue;
+    border-width: 10px;
+}
+#warden{
+    color: snow;
+    font-size: 30px;
+    width: 800px;
+    margin-left: 53%;
+    margin-top: 7%;
+    margin-bottom: 8%;
+    padding: 10px;
+    border: ridge mediumslateblue;
+    text-align: center;
+    border-width: 20px;
+}
+#wardenFoto{
+    width: 750px;
+    margin-left: 7%;
+    margin-top: -31.2%;
+    border: double mediumslateblue;
+    border-width: 10px;
+}
+/*                                                Página Galería                                                                               */
+.grid-img {
+    width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 3fr);
+    gap: 2px;
+    margin-bottom: 20px;
+    margin-top: -0.75%;
+    
+}
+.grid-img img {
+    width: 100%;
+    height: auto;
+}
+
+.grid-img .img-1 {
+    grid-column: 1/4;
+    grid-row: 1/4;
+}
+.zoom {
+    transition: transform .2s; 
+}
+.zoom:hover {
+    transform: scale(1.3); 
+}
