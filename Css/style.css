@@ -38,7 +38,7 @@ nav li a:hover{
 }
 .Nombre {
     color: snow;
-    font-size: 34px;
+    font-size: 26px;
 }
 .Menu {
     display: flex;
@@ -67,10 +67,10 @@ nav li a:hover{
     align-items: center;
 }
 .mine{
-    width: 420px;
+    width: 820px;
     border: double mediumslateblue;
     border-width: 10px;
-    margin-left: 10%;
+   
  }
 .tituloActualizaciones{
     font-size:26px;
