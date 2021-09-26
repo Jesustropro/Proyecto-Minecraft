@@ -28,6 +28,9 @@ nav li a:hover{
 .navegacion{
     background-color: mediumslateblue;
 }
+.nav-derecha{
+    justify-content: right !important;
+}
 .Header {
     display: flex;
     background-color: mediumslateblue;
