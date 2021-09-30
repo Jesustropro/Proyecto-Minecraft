@@ -119,7 +119,6 @@ nav li a:hover{
     max-width: 540px;
     }
 }
-
 #montañaVariacion{
     width: 1000px;
     margin-left: 25%;
@@ -148,82 +147,7 @@ nav li a:hover{
     border-width: 10px;
     margin: 2%;
 }
-.concepto-1{
-    color: snow;
-    font-size: 30px;
-    width: 800px;
-    margin-left: 6%;
-    margin-top: 9%;
-    margin-bottom: 8%;
-    padding: 10px;
-    border: ridge mediumslateblue;
-    text-align: center;
-    border-width: 20px;
-}
-.foto-concepto-1{
-    width: 730px;
-    margin-left: 55%;
-    margin-top: -25%;
-    border: double mediumslateblue;
-    border-width: 10px;
-}
-.concepto-2{
-    color: snow;
-    font-size: 30px;
-    width: 800px;
-    margin-left: 53%;
-    margin-top: 8%;
-    margin-bottom: 8%;
-    padding: 10px;
-    border: ridge mediumslateblue;
-    text-align: center;
-    border-width: 20px;
-}
-.foto-concepto-2{
-    width: 750px;
-    margin-left: 7%;
-    margin-top: -26%;
-    border: double mediumslateblue;
-    border-width: 10px;
-}
-.concepto-3{
-    color: snow;
-    font-size: 30px;
-    width: 800px;
-    margin-left: 6%;
-    margin-top: 4%;
-    margin-bottom: 8%;
-    padding: 10px;
-    border: ridge mediumslateblue;
-    text-align: center;
-    border-width: 20px;
-}
-.foto-concepto-3{
-    width: 780px;
-    margin-left: 53.5%;
-    margin-top: -28%;
-    border: double mediumslateblue;
-    border-width: 10px;
-}
-#MountainGrove{
-    color: snow;
-    font-size: 30px;
-    width: 800px;
-    margin-left: 53%;
-    margin-top: 6%;
-    margin-bottom: 8%;
-    padding: 10px;
-    border: ridge mediumslateblue;
-    text-align: center;
-    border-width: 20px;
-}
-#MountainGroveFoto{
-    width: 750px;
-    margin-left: 7%;
-    margin-top: -28%;
-    border: double mediumslateblue;
-    border-width: 10px;
-}
+
 /*                                                   Página cuevas                                                                                */
 .subtitulo-cuevas{
     color: snow;
@@ -231,14 +155,18 @@ nav li a:hover{
     padding: 12%;
     text-align: center;
 }
-@media (max-width: 1202px){
+@media (max-width: 976px){
     .pc{
     visibility: hidden;
+    height: 0.1px;
+    width: 0.1;
     }
 }
-@media (min-width: 1202px){
+@media (min-width: 975px){
     .mobile{
     visibility: hidden;
+    height: 0.1px;
+    width: 0.1px;
     }
 }
 /*                                                Página Mobs                                                                                        */
