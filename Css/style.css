@@ -231,6 +231,16 @@ nav li a:hover{
     padding: 12%;
     text-align: center;
 }
+@media (max-width: 1202px){
+    .pc{
+    visibility: hidden;
+    }
+}
+@media (min-width: 1202px){
+    .mobile{
+    visibility: hidden;
+    }
+}
 /*                                                Página Mobs                                                                                        */
 #axolotlFoto{
     width: 780px;
