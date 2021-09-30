@@ -143,6 +143,12 @@ nav li a:hover{
     margin: 2%;
     border-radius: 8%;
 }
+.montañas-foto-muestra{
+    width: 100%;
+    border: double mediumslateblue;
+    border-width: 10px;
+    margin: 2%;
+}
 .concepto-1{
     color: snow;
     font-size: 30px;
