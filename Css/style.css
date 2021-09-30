@@ -111,7 +111,6 @@ nav li a:hover{
 }
 
 .foto-1{
-    width: 540px;
     border: double mediumslateblue;
     border-width: 10px;
 }
@@ -227,7 +226,6 @@ nav li a:hover{
 }
 /*                                                   Página cuevas                                                                                */
 .subtitulo-cuevas{
-    font-style: oblique;
     color: snow;
     font-size: 48px;
     padding: 12%;
@@ -286,7 +284,7 @@ nav li a:hover{
 .zoom:hover {
     transform: scale(1.1); 
 }
-@media (max-width: 1024px){
+@media (max-width: 1202px){
     .grid-img{
     display: flex;
     flex-direction: column;
