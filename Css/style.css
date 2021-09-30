@@ -56,7 +56,7 @@ nav li a:hover{
     font-size: 28px;
     text-align: center;
     padding-bottom: 4%;
-    padding-top: 1%;
+    padding-top: 3%;
     color: snow;
 }
 .parrafo{
@@ -351,5 +351,13 @@ nav li a:hover{
     transition: transform .2s; 
 }
 .zoom:hover {
-    transform: scale(1.3); 
+    transform: scale(1.1); 
+}
+@media (max-width: 1024px){
+    .grid-img{
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    gap: 8px;
+    }
 }
