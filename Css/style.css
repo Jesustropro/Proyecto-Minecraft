@@ -72,9 +72,13 @@ nav li a:hover{
 .mine{
     width: 820px;
     border: double mediumslateblue;
-    border-width: 10px;
-   
+    border-width: 10px;   
  }
+ @media (min-width: 1440px){
+    .mine{
+    max-width: 400px;
+    }
+}
 .tituloActualizaciones{
     font-size:26px;
     background-color: mediumslateblue;
@@ -105,13 +109,18 @@ nav li a:hover{
     padding: 20px;
     margin-top: 2%;
 }
+
 .foto-1{
-    width: 730px;
-    margin-left: 55%;
-    margin-top: -14%;
+    width: 540px;
     border: double mediumslateblue;
     border-width: 10px;
 }
+@media (min-width: 1440px){
+    .foto-1{
+    max-width: 540px;
+    }
+}
+
 #montañaVariacion{
     width: 1000px;
     margin-left: 25%;
@@ -119,6 +128,20 @@ nav li a:hover{
     margin-bottom: 1%;
     border: double mediumslateblue;
     border-width: 20px;
+}
+.montañas-texto{
+    font-size: 24px;
+    color: snow;
+    margin-top: 4%;
+    text-align: center;
+    padding: 2%;
+}
+.montañas-foto{
+    width: 100%;
+    border: double mediumslateblue;
+    border-width: 10px;
+    margin: 2%;
+    border-radius: 8%;
 }
 .concepto-1{
     color: snow;
