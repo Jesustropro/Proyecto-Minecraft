@@ -157,16 +157,12 @@ nav li a:hover{
 }
 @media (max-width: 976px){
     .pc{
-    visibility: hidden;
-    height: 0.1px;
-    width: 0.1;
+    display: none;
     }
 }
 @media (min-width: 975px){
     .mobile{
-    visibility: hidden;
-    height: 0.1px;
-    width: 0.1px;
+    display: none;
     }
 }
 /*                                                Página Mobs                                                                                        */
