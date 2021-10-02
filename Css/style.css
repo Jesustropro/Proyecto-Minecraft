@@ -1,228 +1,230 @@
+@charset "UTF-8";
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style: none;
-    font-family: 'Acme', sans-serif;
-    text-decoration: none;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+  font-family: 'Acme', sans-serif;
+  text-decoration: none;
 }
 
-body{
-    background-color: lightskyblue
+/*                                                 Menu de navegación                           */
+body {
+  background-color: lightskyblue;
 }
-/*                                                   Menú de navegación                                                        */
+
+.navegacion {
+  background-color: mediumslateblue;
+}
+
+.nav-derecha {
+  -webkit-box-pack: right !important;
+      -ms-flex-pack: right !important;
+          justify-content: right !important;
+}
+
 nav li {
-    padding: 10px;
-    margin: 5px;
-}
-.activo {
-    color:  lightskyblue !important;
-}
-nav li a {
-     color: snow !important;
-     font-size: 24px !important; 
-}
-nav li a:hover{
-    color: lightskyblue !important;
-}
-.navegacion{
-    background-color: mediumslateblue;
-}
-.nav-derecha{
-    justify-content: right !important;
-}
-.Header {
-    display: flex;
-    background-color: mediumslateblue;
-    height: 100px;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-}
-.Nombre {
-    color: snow;
-    font-size: 26px;
-}
-.Menu {
-    display: flex;
-}
-.Menu ul {
-    color: white;
-    padding: 10px;
-    margin: 0 10px;
-}
-/*                                                               Contenido principal                              */
-.titulo{
-    font-size: 28px;
-    text-align: center;
-    padding-bottom: 4%;
-    padding-top: 3%;
-    color: snow;
-}
-.parrafo{
-    font-size: 28px;
-    width: 800px;
-    color: snow;
-    padding: 7%;
-}
-#concepto{
-    width: 800px;
-    align-items: center;
-}
-.mine{
-    width: 820px;
-    border: double mediumslateblue;
-    border-width: 10px;   
- }
- @media (min-width: 1440px){
-    .mine{
-    max-width: 400px;
-    }
-}
-.tituloActualizaciones{
-    font-size:26px;
-    background-color: mediumslateblue;
-    padding: 20px;
-    text-align: center;
-    color: snow;
-    margin-top: 2%;
-}
-#actualizaciones{
-    width: 100%;
-    padding: 1%;
-    text-align: center;
-}
-.tituloNombre{
-    font-size:26px;
-    background-color: mediumslateblue;
-    padding: 20px;
-    text-align: center;
-    color: snow;
-    margin-top: 2%;
-}
-.carrusel{
-    margin-top: 2%;
-}
-/*                                Pagina Montaña con clases  para pagina mobs y cuevas                                                         */
-#footer{
-    background-color: mediumslateblue;
-    padding: 20px;
-    margin-top: 2%;
+  padding: 10px;
+  margin: 5px;
 }
 
-.foto-1{
-    border: double mediumslateblue;
-    border-width: 10px;
+nav .activo {
+  color: lightskyblue !important;
 }
-@media (min-width: 1206px){
-    .foto-1{
+
+nav a {
+  color: snow !important;
+  font-size: 24px !important;
+}
+
+nav a:hover {
+  color: lightskyblue !important;
+}
+
+/*                                                               Contenido principal                              */
+.titulo {
+  font-size: 28px;
+  text-align: center;
+  padding-bottom: 4%;
+  padding-top: 3%;
+  color: snow;
+}
+
+.parrafo {
+  font-size: 28px;
+  width: 800px;
+  color: snow;
+  padding: 7%;
+}
+
+#concepto {
+  width: 800px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mine {
+  width: 820px;
+  border: double mediumslateblue;
+  border-width: 10px;
+}
+
+@media (min-width: 1440px) {
+  .mine {
+    max-width: 400px;
+  }
+}
+
+.tituloActualizaciones {
+  font-size: 26px;
+  background-color: mediumslateblue;
+  padding: 20px;
+  text-align: center;
+  color: snow;
+  margin-top: 2%;
+}
+
+#actualizaciones {
+  width: 100%;
+  padding: 1%;
+  text-align: center;
+}
+
+.tituloNombre {
+  font-size: 26px;
+  background-color: mediumslateblue;
+  padding: 20px;
+  text-align: center;
+  color: snow;
+  margin-top: 2%;
+}
+
+.carrusel {
+  margin-top: 2%;
+}
+
+/*                                Pagina Montaña con clases  para pagina mobs y cuevas                                                         */
+#footer {
+  background-color: mediumslateblue;
+  padding: 20px;
+  margin-top: 2%;
+}
+
+.foto-1 {
+  border: double mediumslateblue;
+  border-width: 10px;
+}
+
+@media (min-width: 1206px) {
+  .foto-1 {
     max-width: 540px;
-    }
+  }
 }
-#montañaVariacion{
-    width: 1000px;
-    margin-left: 25%;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    border: double mediumslateblue;
-    border-width: 20px;
+
+#montañaVariacion {
+  width: 1000px;
+  margin-left: 25%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  border: double mediumslateblue;
+  border-width: 20px;
 }
-.montañas-texto{
-    font-size: 24px;
-    color: snow;
-    margin-top: 4%;
-    text-align: center;
-    padding: 2%;
+
+.montañas-texto {
+  font-size: 24px;
+  color: snow;
+  margin-top: 4%;
+  text-align: center;
+  padding: 2%;
 }
-.montañas-foto{
-    width: 100%;
-    border: double mediumslateblue;
-    border-width: 10px;               /*Clase para las  fotos en las páginas, (no solo para montañas)*/
-    margin: 2%;
-    border-radius: 8%;
+
+.montañas-foto {
+  width: 100%;
+  border: double mediumslateblue;
+  border-width: 10px;
+  /*Clase para las  fotos en las páginas, (no solo para montañas)*/
+  margin: 2%;
+  border-radius: 8%;
 }
-.montañas-foto-muestra{
-    width: 100%;
-    border: double mediumslateblue;
-    border-width: 10px;
-    margin: 2%;
+
+.montañas-foto-muestra {
+  width: 100%;
+  border: double mediumslateblue;
+  border-width: 10px;
+  margin: 2%;
 }
 
 /*                                                   Página cuevas                                                                                */
-.subtitulo-cuevas{
-    color: snow;
-    font-size: 48px;
-    padding: 12%;
-    text-align: center;
+.subtitulo-cuevas {
+  color: snow;
+  font-size: 48px;
+  padding: 12%;
+  text-align: center;
 }
-@media (max-width: 976px){
-    .pc{
+
+@media (max-width: 976px) {
+  .pc {
     display: none;
-    }
+  }
 }
-@media (min-width: 975px){
-    .mobile{
+
+@media (min-width: 975px) {
+  .mobile {
     display: none;
-    }
+  }
 }
-/*                                                Página Mobs                                                                                        */
-#axolotlFoto{
-    width: 780px;
-    margin-left: 53.5%;
-    margin-top: -25%;
-    border: double mediumslateblue;
-    border-width: 10px;
-}
-#warden{
-    color: snow;
-    font-size: 30px;
-    width: 800px;
-    margin-left: 53%;
-    margin-top: 7%;
-    margin-bottom: 8%;
-    padding: 10px;
-    border: ridge mediumslateblue;
-    text-align: center;
-    border-width: 20px;
-}
-#wardenFoto{
-    width: 750px;
-    margin-left: 7%;
-    margin-top: -31.2%;
-    border: double mediumslateblue;
-    border-width: 10px;
-}
+
 /*                                                Página Galería                                                                               */
 .grid-img {
-    width: 1200px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(4, 3fr);
-    gap: 2px;
-    margin-bottom: 20px;
-    margin-top: -0.75%;
-    
+  width: 1200px;
+  margin: 0 auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (3fr)[4];
+      grid-template-columns: repeat(4, 3fr);
+  gap: 2px;
+  margin-bottom: 20px;
+  margin-top: -0.75%;
 }
+
 .grid-img img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .grid-img .img-1 {
-    grid-column: 1/4;
-    grid-row: 1/4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1/4;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+  grid-row: 1/4;
 }
+
 .zoom {
-    transition: transform .2s; 
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
 }
+
 .zoom:hover {
-    transform: scale(1.1); 
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
-@media (max-width: 1202px){
-    .grid-img{
+
+@media (max-width: 1202px) {
+  .grid-img {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     max-width: 90%;
     gap: 8px;
-    }
+  }
 }
