@@ -35,12 +35,24 @@ nav {
 }
 /*                                                               Contenido principal                              */
 .titulo{
-    font-size: 28px;
+    font-size: 54px !important;
     text-align: center;
     padding-bottom: 4%;
     padding-top: 3%;
     color: snow;
   }
+#tituloprincipalindex{
+  font-size: 54px !important;
+  text-align: center;
+  padding-top: 3%;
+  color: snow;
+}
+#tituloprincipalpequeñoindex{
+  font-size: 34px !important;
+  text-align: center;
+  padding-bottom: 4%;
+  color: snow;
+}
   .parrafo{
     font-size: 28px;
     width: 800px;
@@ -132,14 +144,14 @@ nav {
   
   /*                                                   Página cuevas                                                                                */  
   $title-font: font-style oblique;
-  $title-font: font-style normal;
+  $title-font: font-style italic;
   
   .subtitulo-cuevas{
     @if $title-font == font-style oblique{
       font-style: oblique;
     }
     @else if $title-font == font-style oblique{
-      font-style: normal;
+      font-style: italic;
     }
     color: snow;
     font-size: 48px;

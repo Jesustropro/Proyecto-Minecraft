@@ -44,10 +44,24 @@ nav a:hover {
 
 /*                                                               Contenido principal                              */
 .titulo {
-  font-size: 28px;
+  font-size: 54px !important;
   text-align: center;
   padding-bottom: 4%;
   padding-top: 3%;
+  color: snow;
+}
+
+#tituloprincipalindex {
+  font-size: 54px !important;
+  text-align: center;
+  padding-top: 3%;
+  color: snow;
+}
+
+#tituloprincipalpequeñoindex {
+  font-size: 34px !important;
+  text-align: center;
+  padding-bottom: 4%;
   color: snow;
 }
 
