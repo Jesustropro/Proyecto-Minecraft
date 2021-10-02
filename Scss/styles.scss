@@ -131,7 +131,16 @@ nav {
   }
   
   /*                                                   Página cuevas                                                                                */  
+  $title-font: font-style oblique;
+  $title-font: font-style normal;
+  
   .subtitulo-cuevas{
+    @if $title-font == font-style oblique{
+      font-style: oblique;
+    }
+    @else if $title-font == font-style oblique{
+      font-style: normal;
+    }
     color: snow;
     font-size: 48px;
     padding: 12%;
