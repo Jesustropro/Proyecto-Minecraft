@@ -182,7 +182,7 @@ nav a:hover {
   margin: 0 auto;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (3fr)[4];
+  -ms-grid-columns: (3fr);
       grid-template-columns: repeat(4, 3fr);
   gap: 2px;
   margin-bottom: 20px;
