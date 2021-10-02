@@ -19,9 +19,9 @@ body {
 }
 
 .nav-derecha {
-  -webkit-box-pack: right !important;
-      -ms-flex-pack: right !important;
-          justify-content: right !important;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
 }
 
 nav li {
@@ -35,7 +35,7 @@ nav .activo {
 
 nav a {
   color: snow !important;
-  font-size: 24px !important;
+  font-size: 26px !important;
 }
 
 nav a:hover {
@@ -51,11 +51,11 @@ nav a:hover {
 }
 
 .titulo h1 {
-  font-size: 54px;
+  font-size: 40px;
 }
 
 .titulo h4 {
-  font-size: 34px;
+  font-size: 24px;
 }
 
 .parrafo {
