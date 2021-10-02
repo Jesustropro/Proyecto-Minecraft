@@ -35,25 +35,18 @@ nav {
 }
 /*                                                               Contenido principal                              */
 .titulo{
-    font-size: 54px !important;
     text-align: center;
     padding-bottom: 4%;
     padding-top: 3%;
     color: snow;
+    h1{
+      font-size: 54px;
+    }
+    h4{
+      font-size: 34px;
+    }
   }
-#tituloprincipalindex{
-  font-size: 54px !important;
-  text-align: center;
-  padding-top: 3%;
-  color: snow;
-}
-#tituloprincipalpequeñoindex{
-  font-size: 34px !important;
-  text-align: center;
-  padding-bottom: 4%;
-  color: snow;
-}
-  .parrafo{
+.parrafo{
     font-size: 28px;
     width: 800px;
     color: snow;
