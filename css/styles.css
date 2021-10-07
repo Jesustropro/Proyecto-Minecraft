@@ -40,6 +40,8 @@ nav a {
 
 nav a:hover {
   color: lightskyblue !important;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 /*                                                               Contenido principal                              */
@@ -151,7 +153,7 @@ nav a:hover {
   width: 100%;
   border: double mediumslateblue;
   border-width: 10px;
-  /*Clase para las  fotos en las páginas, (no solo para montañas)*/
+  /*Clase para las fotos en las páginas, (no solo para montañas)*/
   margin: 2%;
   border-radius: 8%;
 }
