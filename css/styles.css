@@ -35,7 +35,7 @@ nav .activo {
 
 nav a {
   color: snow !important;
-  font-size: 23px !important;
+  font-size: 21px !important;
 }
 
 nav a:hover {
@@ -53,7 +53,7 @@ nav a:hover {
 }
 
 .titulo h1 {
-  font-size: 40px;
+  font-size: 34px;
 }
 
 .titulo h4 {
@@ -237,5 +237,34 @@ nav a:hover {
     max-width: 90%;
     gap: 8px;
   }
+}
+
+/*                                                Página Preguntas recientes                              */
+.video-preguntas {
+  width: 640px;
+  height: 470px;
+  margin-bottom: 9%;
+  padding-top: 1%;
+}
+
+.acordeon-espacio {
+  margin-bottom: 1%;
+  padding-top: 2%;
+}
+
+.acordeon-colores {
+  color: snow !important;
+  background-color: mediumslateblue !important;
+  font-size: 18px;
+}
+
+.acordeon-titulo {
+  background-color: mediumslateblue !important;
+  color: snow !important;
+  font-size: 22px;
+}
+
+.link-feedback {
+  color: skyblue;
 }
 /*# sourceMappingURL=styles.css.map */
