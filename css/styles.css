@@ -115,10 +115,34 @@ nav a:hover {
 }
 
 /*                                Pagina Montaña con clases  para pagina mobs y cuevas                                                         */
-#footer {
+.footer {
   background-color: mediumslateblue;
-  padding: 20px;
+  color: snow;
   margin-top: 2%;
+  font-size: 18px;
+}
+
+.correo {
+  color: skyblue;
+}
+
+.lista-footer {
+  color: snow;
+  text-decoration: none;
+}
+
+.lista-footer:hover {
+  color: skyblue;
+}
+
+footer section ul li:hover {
+  -webkit-transform: scale(1.1) !important;
+          transform: scale(1.1) !important;
+}
+
+.icono:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .foto-1 {
@@ -130,15 +154,6 @@ nav a:hover {
   .foto-1 {
     max-width: 540px;
   }
-}
-
-#montañaVariacion {
-  width: 1000px;
-  margin-left: 25%;
-  margin-top: 1%;
-  margin-bottom: 1%;
-  border: double mediumslateblue;
-  border-width: 20px;
 }
 
 .montañas-texto {
@@ -243,7 +258,6 @@ nav a:hover {
 .video-preguntas {
   width: 640px;
   height: 470px;
-  margin-bottom: 9%;
   padding-top: 1%;
 }
 
