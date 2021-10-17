@@ -60,18 +60,17 @@ nav a:hover {
   font-size: 24px;
 }
 
+#actualizaciones {
+  width: 100%;
+  padding: 1%;
+  text-align: center;
+}
+
 .parrafo {
   font-size: 28px;
   width: 800px;
   color: snow;
   padding: 7%;
-}
-
-#concepto {
-  width: 800px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .mine {
@@ -95,12 +94,6 @@ nav a:hover {
   margin-top: 2%;
 }
 
-#actualizaciones {
-  width: 100%;
-  padding: 1%;
-  text-align: center;
-}
-
 .tituloNombre {
   font-size: 26px;
   background-color: mediumslateblue;
@@ -114,7 +107,6 @@ nav a:hover {
   margin-top: 2%;
 }
 
-/*                                Pagina Montaña con clases  para pagina mobs y cuevas                                                         */
 .footer {
   background-color: mediumslateblue;
   color: snow;
@@ -145,6 +137,17 @@ footer section ul li:hover {
           transform: scale(1.1);
 }
 
+.footer-mobile {
+  display: show;
+}
+
+@media (max-width: 767px) {
+  .footer-mobile {
+    display: none;
+  }
+}
+
+/*                                Pagina Montaña con clases  para pagina mobs y cuevas                                                         */
 .foto-1 {
   border: double mediumslateblue;
   border-width: 10px;
