@@ -3,9 +3,9 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   list-style: none;
-  font-family: 'Acme', sans-serif;
+  font-family: "Acme", sans-serif;
   text-decoration: none;
 }
 
@@ -20,8 +20,8 @@ body {
 
 .nav-derecha {
   -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
+  -ms-flex-pack: right;
+  justify-content: right;
 }
 
 nav li {
@@ -41,7 +41,7 @@ nav a {
 nav a:hover {
   color: lightskyblue !important;
   -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 /*                                                               Contenido principal                              */
@@ -72,7 +72,11 @@ nav a:hover {
   color: snow;
   padding: 7%;
 }
-
+@media (min-width: 1000px) {
+  .parrafo {
+    width: 57%;
+  }
+}
 .mine {
   width: 820px;
   border: double mediumslateblue;
@@ -129,12 +133,12 @@ nav a:hover {
 
 footer section ul li:hover {
   -webkit-transform: scale(1.1) !important;
-          transform: scale(1.1) !important;
+  transform: scale(1.1) !important;
 }
 
 .icono:hover {
   -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .footer-mobile {
@@ -153,7 +157,7 @@ footer section ul li:hover {
   border-width: 10px;
 }
 
-@media (min-width: 1206px) {
+@media (min-width: 1300px) {
   .foto-1 {
     max-width: 540px;
   }
@@ -210,8 +214,8 @@ footer section ul li:hover {
   margin: 0 auto;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (3fr)(4);
-      grid-template-columns: repeat(4, 3fr);
+  -ms-grid-columns: (3fr) (4);
+  grid-template-columns: repeat(4, 3fr);
   gap: 2px;
   margin-bottom: 20px;
   margin-top: -0.75%;
@@ -232,15 +236,15 @@ footer section ul li:hover {
 }
 
 .zoom {
-  -webkit-transition: -webkit-transform .2s;
-  transition: -webkit-transform .2s;
-  transition: transform .2s;
-  transition: transform .2s, -webkit-transform .2s;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
 }
 
 .zoom:hover {
   -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 @media (max-width: 1202px) {
@@ -250,8 +254,8 @@ footer section ul li:hover {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     max-width: 90%;
     gap: 8px;
   }
